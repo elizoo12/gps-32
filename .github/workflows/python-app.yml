@@ -33,7 +33,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest test.py
+          pytest tests/test_transform.py
 
       - name: Run coverage
         run: |
